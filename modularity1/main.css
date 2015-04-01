@@ -1,0 +1,134 @@
+/* ADD YOUR STYLES HERE */
+/* - FIRST ATTEMPT BELOW
+
+
+td {
+	color: solid black;
+	border-spacing: 10px;
+	height: 30px;
+	vertical-align: center;
+	border: 1px solid gray;
+	border-left: 0px;
+	border-right: 0px;
+
+}
+
+.data-table {
+	outline-style: 5px solid;
+	border: 1px solid black;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 15px;
+	width: 100%;
+
+}*/
+
+
+/*NUMBER 1*/
+div .data-table {
+	border-style: none;
+	width: 800px;
+}
+
+.data-table tr {
+	border-width: 1px;
+	border-color: rgb(189, 195, 199);
+	border-style: solid;
+	
+	border-bottom: none;
+	border-right: none;
+	border-left: none;
+}
+
+div .DT-first-row {
+	border-top: none;
+}
+
+tr {
+	height: 35px;
+	vertical-align: center;
+}
+
+thead {
+	text-align: left;
+}
+
+/*NUMBER 2*/
+.stats-table tr{
+	border:1px solid black;
+	border-left: none;
+	border-right: none;
+	border-color: rgb(189, 195, 199);
+	height:	90px;
+	font-size: 250%;
+	font-weight: bold;
+	text-align: center;
+
+}
+.small-label {
+	font-size: 15%;
+	font-weight: normal;
+	color: rgb(189, 195, 199);
+	width:100px;
+}
+
+/*NUMBER 3*/
+.chart {
+	width: 100%;
+}
+
+/*.chart, th, td, tr{*/
+	/*border: none;*/
+/*}*/
+
+.chart div{
+	background-color: #3498db;
+	height: 20px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding-top: 6px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	padding-left: 2px;
+	color: white;
+	line-height: 20px;
+}
+.chart th {
+	width: 100px;
+	text-align: right;
+	padding: 0 10px 0 0;
+	border-bottom: 0;
+	white-space: nowrap;
+
+
+
+}
+.chart td {
+	padding: 0;
+	border-bottom: 0;
+}
+
+
+
+/*NUMBER 4*/
+.outer-container {
+	position: fixed;
+	background-color: rgb(52, 73, 94);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.inner-container {
+	background-color: white;
+	position: relative;
+	border-radius: 3px;
+	top: 50%;
+	margin-top: -50px;
+	left: 200px;
+	right: 200px;
+	padding: 25px;
+}
+
